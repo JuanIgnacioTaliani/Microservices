@@ -26,4 +26,15 @@ public class OrderItem {
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JoinColumn(name = "order_id", referencedColumnName = "id")
     private Order order;
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("OrderItem{");
+        sb.append("id=").append(id);
+        sb.append(", sku='").append(sku).append('\'');
+        sb.append(", price=").append(price);
+        sb.append(", quantity=").append(quantity);
+        sb.append('}');
+        return sb.toString();
+    }
 }
