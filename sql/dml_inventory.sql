@@ -1,0 +1,10 @@
+insert into public.inventory (sku, quantity) values ('SWL-912', 0);
+insert into public.inventory (sku, quantity) values ('RYB-098', 4);
+insert into public.inventory (sku, quantity) values ('XOP-379', 2);
+insert into public.inventory (sku, quantity) values ('YPL-440', 1);
+insert into public.inventory (sku, quantity) values ('SAK-021', 0);
+insert into public.inventory (sku, quantity) values ('NKT-903', 3);
+insert into public.inventory (sku, quantity) values ('RUK-811', 5);
+insert into public.inventory (sku, quantity) values ('ABW-133', 5);
+insert into public.inventory (sku, quantity) values ('CSQ-224', 5);
+insert into public.inventory (sku, quantity) values ('GDH-493', 1);
